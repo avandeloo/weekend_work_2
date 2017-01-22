@@ -2,11 +2,7 @@
 
 def palindrome?(string)
   string = string.downcase.tr("^a-z", "")
-  if string == string.reverse
-    return true
-  else
-    return false
-  end
+  string == string.reverse
 end
 
 # Driver code - don't touch anything below this line.

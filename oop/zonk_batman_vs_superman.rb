@@ -40,9 +40,7 @@ class Superhero
 
   def grab_tool
     @has_special_tool = true
-    if @has_special_tool == true
-      @attack *= 3
-    end
+    @attack *= 3
   end
 
 end

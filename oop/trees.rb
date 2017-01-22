@@ -12,11 +12,7 @@ class Tree
   end
 
   def bear_fruit?
-    if rings > 7 && rings < 15
-      return true
-    else
-      return false
-    end
+    rings > 7 && rings < 15
   end
 
   def winter_season
